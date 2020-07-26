@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { MaterialIcon } from './icons';
+import { MaterialIcon } from '../icons';
 
 @Injectable({
   providedIn: 'root'
