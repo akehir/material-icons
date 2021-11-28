@@ -1,0 +1,13 @@
+{
+    "conversionType": "files",
+    "modelFileName": "material-icon.model",
+    "srcFiles": [
+      "./lib/mat-icons/**/svg/production/*.svg"
+    ],
+    "outputDirectory": "./projects/material-icons-lib/src/icons",
+    "interfaceName": "MaterialIcon",
+    "typeName": "materialIcon",
+    "prefix": "materialIcon",
+    "optimizeForLazyLoading": true,
+    "compileSources": true
+}

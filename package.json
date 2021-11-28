@@ -21,19 +21,6 @@
     "postversion": "git push --follow-tags"
   },
   "private": true,
-  "svg-to-ts": {
-    "conversionType": "files",
-    "modelFileName": "material-icon.model",
-    "srcFiles": [
-      "./lib/mat-icons/**/svg/production/*.svg"
-    ],
-    "outputDirectory": "./projects/material-icons-lib/src/icons",
-    "interfaceName": "MaterialIcon",
-    "typeName": "materialIcon",
-    "prefix": "materialIcon",
-    "optimizeForLazyLoading": true,
-    "compileSources": true
-  },
   "dependencies": {
     "@angular/animations": "~13.0.2",
     "@angular/common": "~13.0.2",
