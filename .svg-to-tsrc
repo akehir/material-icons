@@ -2,7 +2,7 @@
     "conversionType": "files",
     "modelFileName": "material-icon.model",
     "srcFiles": [
-      "./lib/mat-icons/**/svg/production/*.svg"
+      "./lib/mat-icons/src/**/materialicons/*.svg"
     ],
     "outputDirectory": "./projects/material-icons-lib/src/icons",
     "interfaceName": "MaterialIcon",

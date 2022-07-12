@@ -2,6 +2,11 @@
 
 Use the cool icons from Material in your app, fully tree-shaked and only loaded when necessary. Injected into the dom, and therefore IE compatible.
 
+# Deprecated!
+
+Unfortunately material icons are not provided in a nice format that we can parse into a library anymore. Therefore I'm deprecating this library. Just use the official: https://material.angular.io/components/icon/overview
+
+
 ## Live Demo
 The live demo can be found at https://material-icons.akehir.com.
 
@@ -17,7 +22,6 @@ Supported Angular Versions
 | 11.x            | 3.0.0                    |
 | 12.x            | 4.0.0                    |
 | 13.x            | 5.0.3                    |
-| 14.x            | 6.0.0                    |
 
 ### Step 1: Install
 

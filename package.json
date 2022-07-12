@@ -14,7 +14,7 @@
     "test": "npm run test:lib && npm run test:example",
     "test:lib": "node --max_old_space_size=7777 ./node_modules/@angular/cli/bin/ng test material-icons-lib --no-watch --progress=false --code-coverage --browsers ChromeHeadless",
     "test:example": "node --max_old_space_size=7777 ./node_modules/@angular/cli/bin/ng test example-app --no-watch --progress=false --code-coverage --browsers ChromeHeadless",
-    "icons": "node --max_old_space_size=7777 ./node_modules/svg-to-ts/src/bin/svg-to-ts.js -s /*.svg -o -f icons",
+    "icons": "svg-to-ts-files",
     "analyze": "ng build example-app --prod --stats-json && webpack-bundle-analyzer ./dist/example-app/stats-es2015.json",
     "lint": "ng lint",
     "e2e": "ng e2e example-app",
@@ -32,7 +32,7 @@
     "@angular/router": "^14.0.3",
     "core-js": "^3.1.3",
     "rxjs": "~7.4.0",
-    "svg-to-ts": "^7.1.0",
+    "svg-to-ts": "8.8.1",
     "tslib": "^2.3.1",
     "zone.js": "~0.11.4"
   },
